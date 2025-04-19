@@ -1,0 +1,5 @@
+{
+  "body": "VGhpcyBpcyBhIHRlc3QgdGV4dCBmaWxlLg==",
+  "isBase64Encoded": true,
+  "key": "Test.txt"
+}
