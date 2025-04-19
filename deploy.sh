@@ -17,7 +17,7 @@ aws --endpoint-url=$ENDPOINT s3 mb s3://$BUCKET
 aws --endpoint-url=$ENDPOINT lambda create-function \
   --function-name $FUNCTION_NAME \
   --runtime python3.11 \
-  --handler handler.lambda_handler \
+  --handler lambda_handler.lambda_handler \
   --role arn:aws:iam::000000000000:role/lambda-role \
   --zip-file fileb://$ZIPFILE
 
